@@ -6,7 +6,7 @@
 1. [SharpHound](#SharpHound)<br>
 2. [RustHound](#RustHound)<br>
 3. [ShadowHound](#ShadowHound)<br>
-4. [ADExplorer](https://github.com/c3c/ADExplorerSnapshot.py.git)<br>
+4. [ADExplorer](#ADExplorer)<br>
 5. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce) (Remote)
 6. [NetExec](#NetExec) (Remote)
 
