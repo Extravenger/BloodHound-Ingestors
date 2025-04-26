@@ -24,3 +24,19 @@ It uses methods like LDAP queries, SMB sessions, and Windows APIs for collection
 RustHound-CE is a cross-platform and cross-compiled BloodHound collector tool written in Rust, making it compatible with Linux, Windows, and macOS. It therefore generates all the JSON files that can be analyzed by BloodHound Community Edition.
 
 - `.\rusthound-ce.exe --ldapusername amit --ldappassword "Password123!" --domain sevenkingdoms.local --collectionmethod All --zip output.zip`
+
+# ShadowHound
+
+![image](https://github.com/user-attachments/assets/f9d133af-e588-4296-9841-42ada68871c0)
+
+ShadowHound is a set of PowerShell scripts for Active Directory enumeration without the need for introducing known-malicious binaries like SharpHound. It leverages native PowerShell capabilities to minimize detection risks and offers two methods for data collection:
+
+1. ShadowHound-ADM.ps1: Uses the Active Directory module (ADWS).
+2. ShadowHound-DS.ps1: Utilizes direct LDAP queries via DirectorySearcher.
+
+- Collect: `ShadowHound-ADM -OutputFilePath "C:\Results\ldap_output.txt"`
+- Converting Data for BloodHound: `python3 split_output.py -i ldap_output.txt -o pyldapsearch_ldap -n 100`
+
+After collecting data, use BofHound to convert it into BloodHound-compatible JSON files:
+
+- `python3 bofhound.py -i ldap_output.txt -p All --parser ldapsearch`
