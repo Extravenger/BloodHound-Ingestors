@@ -12,6 +12,11 @@ This repository consolidates information on various BloodHound Ingestors. While 
 
 ![image](https://github.com/user-attachments/assets/4d462c57-fbf3-46ff-a55d-5f36884841af)
 
+SharpHound is a data collection tool that's part of the BloodHound project.
+It maps Active Directory (AD) environments by gathering information like user sessions, group memberships, and ACLs.
+SharpHound uses methods like LDAP queries, SMB sessions, and Windows APIs for collection.
+It helps identify attack paths, privilege escalation opportunities, and misconfigurations in AD.
+
 - `.\SharpHound.exe -c all --domain sevenkingdoms.local --zipfilename sevenkingdoms --zippassword --outputfile C:\Users\Public\Documents\out.zip`
 
 # RustHound
