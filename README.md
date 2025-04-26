@@ -11,4 +11,4 @@ This repository consolidates information on various BloodHound Ingestors. While 
 
 # RustHound
 
-Command: `.\rusthound-ce.exe --ldapusername amit --ldappassword "Password123!" --domain sevenkingdoms.local --collectionmethod All --zip output.zip`
+- `.\rusthound-ce.exe --ldapusername amit --ldappassword "Password123!" --domain sevenkingdoms.local --collectionmethod All --zip output.zip`
