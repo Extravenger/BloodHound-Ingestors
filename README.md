@@ -2,16 +2,18 @@
 
 This repository consolidates information on various BloodHound Ingestors. While conducting red team operations, I faced challenges and decided to create a single repository to centralize all of them.
 
-1. [SharpHound](https://github.com/SpecterOps/SharpHound.git)<br>
-2. [RustHound](https://github.com/g0h4n/RustHound-CE)<br>
-3. [ShadowHound](https://github.com/Friends-Security/ShadowHound)<br>
+1. [SharpHound](#SharpHound)<br>
+2. [RustHound](#RustHound)<br>
+3. [ShadowHound](#ShadowHound)<br>
 4. [ADExplorer](https://github.com/c3c/ADExplorerSnapshot.py.git)<br>
 5. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce) (Remote)
-6. [NetExec](https://github.com/Pennyw0rth/NetExec) (Remote)
+6. [NetExec](#NetExec) (Remote)
 
 # SharpHound
 
 ![image](https://github.com/user-attachments/assets/4d462c57-fbf3-46ff-a55d-5f36884841af)
+
+Source: https://github.com/SpecterOps/SharpHound.git
 
 SharpHound is a data collection tool that's part of the BloodHound project, It maps Active Directory (AD) environments by gathering information like user sessions, group memberships, and ACLs.<br>
 It uses methods like LDAP queries, SMB sessions, and Windows APIs for collection and it helps identify attack paths, privilege escalation opportunities, and misconfigurations in AD.
@@ -22,6 +24,8 @@ It uses methods like LDAP queries, SMB sessions, and Windows APIs for collection
 
 ![image](https://github.com/user-attachments/assets/74c10694-0da2-4727-8df0-2cfa37992075)
 
+Source: https://github.com/g0h4n/RustHound-CE
+
 RustHound-CE is a cross-platform and cross-compiled BloodHound collector tool written in Rust, making it compatible with Linux, Windows, and macOS. It therefore generates all the JSON files that can be analyzed by BloodHound Community Edition.
 
 - `.\rusthound-ce.exe --ldapusername amit --ldappassword "Password123!" --domain sevenkingdoms.local --collectionmethod All --zip output.zip`
@@ -29,6 +33,8 @@ RustHound-CE is a cross-platform and cross-compiled BloodHound collector tool wr
 # ShadowHound
 
 ![image](https://github.com/user-attachments/assets/f9d133af-e588-4296-9841-42ada68871c0)
+
+Source: https://github.com/Friends-Security/ShadowHound
 
 ShadowHound is a set of PowerShell scripts for Active Directory enumeration without the need for introducing known-malicious binaries like SharpHound. It leverages native PowerShell capabilities to minimize detection risks and offers two methods for data collection:
 
@@ -45,5 +51,7 @@ After collecting data, use BofHound to convert it into BloodHound-compatible JSO
 # NetExec
 
 ![image](https://github.com/user-attachments/assets/73ae2e49-3be5-4d30-9e36-0e7b60474967)
+
+Source: https://github.com/Pennyw0rth/NetExec
 
 - `nxc ldap <ip> -u user -p pass --bloodhound --collection All`
