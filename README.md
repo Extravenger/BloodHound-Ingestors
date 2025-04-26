@@ -1,6 +1,8 @@
 # BloodHound-Ingestors
 
 This repository consolidates information on various BloodHound Ingestors. While conducting red team operations, I faced challenges and decided to create a single repository to centralize all of them.
+> [!NOTE]
+> None of the tools mentioned here are developed by me, this repository is created only to place all of them in one place!<br>
 
 1. [SharpHound](#SharpHound)<br>
 2. [RustHound](#RustHound)<br>
