@@ -8,6 +8,11 @@ This repository consolidates information on various BloodHound Ingestors. While 
 4. [ShadowHound](https://github.com/Friends-Security/ShadowHound)<br>
 5. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce)
 
+# SharpHound
+
+![image](https://github.com/user-attachments/assets/4d462c57-fbf3-46ff-a55d-5f36884841af)
+
+- `.\SharpHound.exe -c all --domain sevenkingdoms.local --zipfilename sevenkingdoms --zippassword --outputfile C:\Users\Public\Documents\out.zip`
 
 # RustHound
 
