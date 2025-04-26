@@ -55,7 +55,7 @@ After collecting data, use BofHound to convert it into BloodHound-compatible JSO
 
 Source: https://github.com/c3c/ADExplorerSnapshot.py.git
 
-Download and Execute the binary from [here](https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer) in the environment you want to collect information from and capture a snapshot.<br>
+[Download](https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer) and Execute the binary in the environment you want to collect information from and capture a snapshot.<br>
 We can then convert the snapshot into JSON files that BloodHound can ingest!
 
 - `python3 ADExplorerSnapshot.py <FILENAME>.dat`
