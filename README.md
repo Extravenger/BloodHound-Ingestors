@@ -3,12 +3,13 @@
 > [!NOTE]
 > None of the tools mentioned here were developed by me. This repository was created solely to organize and store them in one place!<br>
 
-1. [SharpHound](#SharpHound)<br>
-2. [RustHound](#RustHound)<br>
-3. [ShadowHound](#ShadowHound)<br>
-4. [ADExplorer](#ADExplorer)<br>
-5. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce) (Remote)
-6. [NetExec](#NetExec) (Remote)
+1. [SharpHound](#SharpHound)
+2. [RustHound](#RustHound)
+3. [ShadowHound](#ShadowHound)
+5. [ADExplorer](#ADExplorer)
+5. [GPOHound](#GPOHound)
+6. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce) (Remote)
+7. [NetExec](#NetExec) (Remote)
 
 # SharpHound
 
@@ -59,6 +60,13 @@ Source: https://github.com/c3c/ADExplorerSnapshot.py.git
 We can then convert the snapshot into JSON files that BloodHound can ingest!
 
 - `python3 ADExplorerSnapshot.py <FILENAME>.dat`
+
+# GPOHound
+
+Source: https://github.com/cogiceo/GPOHound
+
+GPOHound is a tool for dumping and analysing Group Policy Objects (GPOs) extracted from the SYSVOL share.<br>
+It provides a structured, formalized format to help uncover misconfigurations, insecure settings, and privilege escalation paths in Active Directory environments.
 
 # NetExec
 
