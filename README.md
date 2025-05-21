@@ -6,6 +6,7 @@
 1. [SharpHound](#SharpHound)
 2. [RustHound](#RustHound)
 3. [ShadowHound](#ShadowHound)
+4. [SOAPHound](#SOAPHound)
 5. [ADExplorer](#ADExplorer)
 5. [GPOHound](#GPOHound)
 6. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce) (Remote)
@@ -49,6 +50,10 @@ ShadowHound is a set of PowerShell scripts for Active Directory enumeration with
 After collecting data, use BofHound to convert it into BloodHound-compatible JSON files:
 
 - `python3 bofhound.py -i ldap_output.txt -p All --parser ldapsearch`
+
+# SOAPHound
+
+SOAPHound is a .NET data collector tool, which collects Active Directory data via the Active Directory Web Services (ADWS) protocol.
 
 # ADExplorer
 
