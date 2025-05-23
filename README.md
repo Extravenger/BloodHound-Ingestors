@@ -53,7 +53,19 @@ After collecting data, use BofHound to convert it into BloodHound-compatible JSO
 
 # SOAPHound
 
-SOAPHound is a .NET data collector tool, which collects Active Directory data via the Active Directory Web Services (ADWS) protocol.
+![image](https://github.com/user-attachments/assets/977eeccb-5f3d-425f-a696-c2ad5a57e959)
+
+[SOAPHound](https://github.com/FalconForceTeam/SOAPHound) is a .NET data collector tool, which collects Active Directory data via the Active Directory Web Services (ADWS) protocol.
+
+- `SOAPHound.exe --buildcache -c c:\temp\cache.txt`
+
+This will generate a cache file in the c:\temp folder. The cache file is a JSON formatted mapping of basic information about all domain objects.<br>
+After the cache file has been generated, you can use the --bhdump collection method to collect data from the domain that can be imported into BloodHound.
+
+An example command to collect BloodHound data is (note that this references the cache file generated in the previous step):
+
+- `SOAPHound.exe -c c:\temp\cache.txt --bhdump -o c:\temp\bloodhound-output`
+
 
 # ADExplorer
 
