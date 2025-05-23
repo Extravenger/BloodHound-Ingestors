@@ -55,7 +55,9 @@ After collecting data, use BofHound to convert it into BloodHound-compatible JSO
 
 ![image](https://github.com/user-attachments/assets/977eeccb-5f3d-425f-a696-c2ad5a57e959)
 
-[SOAPHound](https://github.com/FalconForceTeam/SOAPHound) is a .NET data collector tool, which collects Active Directory data via the Active Directory Web Services (ADWS) protocol.
+Source: https://github.com/FalconForceTeam/SOAPHound
+
+SOAPHound is a .NET data collector tool, which collects Active Directory data via the Active Directory Web Services (ADWS) protocol.
 
 - `SOAPHound.exe --buildcache -c c:\temp\cache.txt`
 
