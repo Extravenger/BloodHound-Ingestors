@@ -23,6 +23,8 @@ It uses methods like LDAP queries, SMB sessions, and Windows APIs for collection
 
 - `.\SharpHound.exe -c all --domain sevenkingdoms.local --zipfilename sevenkingdoms --zippassword --outputfile C:\Users\Public\Documents\out.zip`
 
+-----
+
 # RustHound
 
 ![image](https://github.com/user-attachments/assets/74c10694-0da2-4727-8df0-2cfa37992075)
