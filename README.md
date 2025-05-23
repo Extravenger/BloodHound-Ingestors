@@ -1,6 +1,6 @@
 # BloodHound-Ingestors
 
-This repo collects all the different BloodHound ingestors in one place.
+This repo collects all the different BloodHound ingestors in one place.<br>
 If you're on a red team and one ingestor gets blocked, you’ll know other options to use!
 
 1. [SharpHound](#SharpHound)
