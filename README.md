@@ -12,6 +12,8 @@
 6. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce) (Remote)
 7. [NetExec](#NetExec) (Remote)
 
+-----
+
 # SharpHound
 
 ![image](https://github.com/user-attachments/assets/4d462c57-fbf3-46ff-a55d-5f36884841af)
@@ -35,6 +37,8 @@ RustHound-CE is a cross-platform and cross-compiled BloodHound collector tool wr
 
 - `.\rusthound-ce.exe --ldapusername amit --ldappassword "Password123!" --domain sevenkingdoms.local --collectionmethod All --zip`
 
+-----
+
 # ShadowHound
 
 ![image](https://github.com/user-attachments/assets/f9d133af-e588-4296-9841-42ada68871c0)
@@ -53,6 +57,8 @@ After collecting data, use BofHound to convert it into BloodHound-compatible JSO
 
 - `python3 bofhound.py -i ldap_output.txt -p All --parser ldapsearch`
 
+-----
+
 # SOAPHound
 
 ![image](https://github.com/user-attachments/assets/977eeccb-5f3d-425f-a696-c2ad5a57e959)
@@ -70,6 +76,7 @@ An example command to collect BloodHound data is (note that this references the 
 
 - `SOAPHound.exe -c c:\temp\cache.txt --bhdump -o c:\temp\bloodhound-output`
 
+-----
 
 # ADExplorer
 
@@ -82,12 +89,16 @@ We can then convert the snapshot into JSON files that BloodHound can ingest!
 
 - `python3 ADExplorerSnapshot.py <FILENAME>.dat`
 
+-----
+
 # GPOHound
 
 Source: https://github.com/cogiceo/GPOHound
 
 GPOHound is a tool for dumping and analysing Group Policy Objects (GPOs) extracted from the SYSVOL share.<br>
 It provides a structured, formalized format to help uncover misconfigurations, insecure settings, and privilege escalation paths in Active Directory environments.
+
+-----
 
 # NetExec
 
