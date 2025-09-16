@@ -4,10 +4,11 @@ This repo collects all the different BloodHound ingestors in one place.<br>
 If you're on a red team and one ingestor gets blocked, you’ll know other options to use!
 
 1. [SharpHound](#SharpHound)
-2. [RustHound](#RustHound)
-3. [ShadowHound](#ShadowHound)
-4. [SOAPHound](#SOAPHound)
-5. [ADExplorer](#ADExplorer)
+2. [MSSQLHound](#MSSQLHound)
+3. [RustHound](#RustHound)
+4. [ShadowHound](#ShadowHound)
+5. [SOAPHound](#SOAPHound)
+6. [ADExplorer](#ADExplorer)
 5. [GPOHound](#GPOHound)
 6. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce) (Remote)
 7. [NetExec](#NetExec) (Remote)
@@ -24,6 +25,16 @@ SharpHound is a data collection tool that's part of the BloodHound project, It m
 It uses methods like LDAP queries, SMB sessions, and Windows APIs for collection and it helps identify attack paths, privilege escalation opportunities, and misconfigurations in AD.
 
 - `.\SharpHound.exe -c all --domain sevenkingdoms.local --zipfilename sevenkingdoms --zippassword --outputfile C:\Users\Public\Documents\out.zip`
+
+-----
+
+# MSSQLHound
+
+<img width="822" height="191" alt="image" src="https://github.com/user-attachments/assets/a5c807ea-ab05-495b-9efc-65c7fcabf978" />
+
+Source: https://github.com/SpecterOps/SharpHound.git
+
+A PowerShell collector for adding MSSQL attack paths to BloodHound with OpenGraph by Chris Thompson at SpecterOps.
 
 -----
 
