@@ -19,7 +19,7 @@ If you're on a red team and one ingestor gets blocked, you’ll know other optio
 
 ![image](https://github.com/user-attachments/assets/4d462c57-fbf3-46ff-a55d-5f36884841af)
 
-Source: https://github.com/SpecterOps/MSSQLHound.git
+Source: https://github.com/SpecterOps/SharpHound.git
 
 SharpHound is a data collection tool that's part of the BloodHound project, It maps Active Directory (AD) environments by gathering information like user sessions, group memberships, and ACLs.<br>
 It uses methods like LDAP queries, SMB sessions, and Windows APIs for collection and it helps identify attack paths, privilege escalation opportunities, and misconfigurations in AD.
@@ -32,7 +32,7 @@ It uses methods like LDAP queries, SMB sessions, and Windows APIs for collection
 
 <img width="822" height="191" alt="image" src="https://github.com/user-attachments/assets/a5c807ea-ab05-495b-9efc-65c7fcabf978" />
 
-Source: https://github.com/SpecterOps/SharpHound.git
+Source: https://github.com/SpecterOps/MSSQLHound.git
 
 A PowerShell collector for adding MSSQL attack paths to BloodHound with OpenGraph by Chris Thompson at SpecterOps.
 
