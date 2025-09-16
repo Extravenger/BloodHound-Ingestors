@@ -5,10 +5,11 @@ If you're on a red team and one ingestor gets blocked, you’ll know other optio
 
 1. [SharpHound](#SharpHound)
 2. [MSSQLHound](#MSSQLHound)
-3. [RustHound](#RustHound)
-4. [ShadowHound](#ShadowHound)
-5. [SOAPHound](#SOAPHound)
-6. [ADExplorer](#ADExplorer)
+3. [AzureHound](#AzureHound)
+4. [RustHound](#RustHound)
+5. [ShadowHound](#ShadowHound)
+6. [SOAPHound](#SOAPHound)
+7. [ADExplorer](#ADExplorer)
 5. [GPOHound](#GPOHound)
 6. [bloodhound-ce](https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce) (Remote)
 7. [NetExec](#NetExec) (Remote)
@@ -35,6 +36,16 @@ It uses methods like LDAP queries, SMB sessions, and Windows APIs for collection
 Source: https://github.com/SpecterOps/MSSQLHound.git
 
 A PowerShell collector for adding MSSQL attack paths to BloodHound with OpenGraph by Chris Thompson at SpecterOps.
+
+-----
+
+# AzureHound
+
+<img width="822" height="191" alt="image" src="https://github.com/user-attachments/assets/a5c807ea-ab05-495b-9efc-65c7fcabf978" />
+
+Source: https://github.com/SpecterOps/AzureHound.git
+
+The BloodHound data collector for Microsoft Azure
 
 -----
 
