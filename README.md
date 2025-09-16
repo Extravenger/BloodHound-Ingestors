@@ -41,8 +41,6 @@ A PowerShell collector for adding MSSQL attack paths to BloodHound with OpenGrap
 
 # AzureHound
 
-<img width="822" height="191" alt="image" src="https://github.com/user-attachments/assets/a5c807ea-ab05-495b-9efc-65c7fcabf978" />
-
 Source: https://github.com/SpecterOps/AzureHound.git
 
 The BloodHound data collector for Microsoft Azure
